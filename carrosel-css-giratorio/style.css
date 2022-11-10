@@ -1,0 +1,145 @@
+* {
+    font-family: "Verdana", sans-serif;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 0px;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    margin: 0;
+    color: #fff;
+}
+
+body {
+    margin: 2rem;
+    background-color: #212123;
+}
+
+
+.carrosel {
+    perspective: 250px;
+    perspective: 250px;
+    width: 400px;
+    height: 200px;
+    top: 50px;
+    position: relative;
+    margin: 0 auto;
+}
+
+@keyframes efeitoCarrosel {
+    from {
+        transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+        transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+        z-index: 10;
+        opacity: 1
+    }
+
+    50% {
+        z-index: -10;
+    }
+
+    to {
+        transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+        transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+        z-index: 10;
+        opacity: 1
+    }
+}
+
+@keyframes efeitoCarrosel {
+    from {
+        transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+        z-index: 10;
+        opacity: 1
+    }
+
+    50% {
+        z-index: -10;
+    }
+
+    to {
+        transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+        z-index: 10;
+        opacity: 1
+    }
+}
+
+.caixa__card {
+    width: 90px;
+    height: 100px;
+    background-color: #442222;
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    top: 35px;
+    left: 125px;
+    font-size: 9px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+    text-align: center;
+    animation-name: efeitoCarrosel;
+    animation-name: efeitoCarrosel;
+    animation-duration: 8s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.caixa__card:hover {
+    border: solid #fff 2px;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.caixa__card.cc__1 {
+    background: linear-gradient(-229deg, #0088ff, #80c1d0);
+    animation-delay: -9s;
+    animation-delay: -9s;
+}
+
+.caixa__card.cc__2 {
+
+    background: linear-gradient(-229deg, #00a3de, #8800ff);
+    animation-delay: -8s;
+    animation-delay: -8s;
+}
+
+.caixa__card.cc__3 {
+
+    background: linear-gradient(-229deg, #eb8d28, #d49054);
+    animation-delay: -7s;
+    animation-delay: -7s;
+}
+
+.caixa__card.cc__4 {
+    background: linear-gradient(-229deg, #fffb91, #d7f07c);
+    animation-delay: -6s;
+    animation-delay: -6s;
+}
+
+.caixa__card.cc__5 {
+    background: linear-gradient(-229deg, #5a0afc, #4242c6);
+    animation-delay: -5s;
+    animation-delay: -5s;
+}
+
+.caixa__card.cc__6 {
+    background: linear-gradient(-229deg, #d9afaf, #cd3939);
+    animation-delay: -4s;
+    animation-delay: -4s;
+}
+
+.caixa__card.cc__7 {
+    background: linear-gradient(-229deg, #330987, #a468f7);
+    animation-delay: -3s;
+    animation-delay: -3s;
+}
+
+.caixa__card.cc__8 {
+    background: linear-gradient(-229deg, #1472ff, #A8EB12);
+    animation-delay: -2s;
+    animation-delay: -2s;
+}
