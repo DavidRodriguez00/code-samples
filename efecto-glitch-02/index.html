@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <title>Glitch Effect</title>
+    <style>
+        body {
+            background: #212123;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        html {
+            font-family: 'Rubik Dirt', cursive;
+            font-size: 26px;
+            font-smooth: auto;
+            color: white;
+        }
+
+        body {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+        }
+
+        div {
+            font-size: 100px;
+        }
+
+        div:hover {
+            font-family: 'Rubik Glitch', cursive;
+        }
+
+        div:hover:before,
+        div:hover:after {
+            position: absolute;
+            content: '@DavidRodriguez00';
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        div:hover:before {
+            top: 49.5%;
+            left: 49.5%;
+            color: rgba(233, 30, 99, 0.8);
+            animation: distort1 300ms linear infinite;
+        }
+
+        div:hover:after {
+            top: 50.5%;
+            left: 50.5%;
+            color: rgba(3, 169, 244, 0.8);
+            animation: distort2 300ms linear infinite;
+        }
+
+        @keyframes distort1 {
+            0% {
+                top: 49.5%;
+                left: 49.5%;
+            }
+
+            12.5% {
+                top: 49.5%;
+                left: 50%;
+            }
+
+            25% {
+                top: 49.5%;
+                left: 50.5%;
+            }
+
+            37.5% {
+                top: 50%;
+                left: 50.5%;
+            }
+
+            50% {
+                top: 50.5%;
+                left: 50.5%;
+            }
+
+            62.5% {
+                top: 50.5%;
+                left: 50%;
+            }
+
+            75% {
+                top: 50.5%;
+                left: 49.5%;
+            }
+
+            87.5% {
+                top: 50%;
+                left: 49.5%;
+            }
+
+            100% {
+                top: 49.5%;
+                left: 49.5%;
+            }
+        }
+
+        @keyframes distort2 {
+            0% {
+                top: 50.5%;
+                left: 50.5%;
+            }
+
+            12.5% {
+                top: 50%;
+                left: 50.5%;
+            }
+
+            25% {
+                top: 49.5%;
+                left: 50.5%;
+            }
+
+            37.5% {
+                top: 49.5%;
+                left: 50%;
+            }
+
+            50% {
+                top: 49.5%;
+                left: 49.5%;
+            }
+
+            62.5% {
+                top: 50%;
+                left: 49.5%;
+            }
+
+            75% {
+                top: 50.5%;
+                left: 49.5%;
+            }
+
+            87.5% {
+                top: 50.5%;
+                left: 50%;
+            }
+
+            100% {
+                top: 50.5%;
+                left: 50.5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>@DavidRodriguez00</div>
+</body>
+
+</html>
