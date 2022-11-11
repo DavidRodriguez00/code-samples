@@ -33,6 +33,7 @@ $(document).ready(function () {
 });
 
 fetch(
+  "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/data/data.json"
 )
   .then((response) => response.json())
   .then((data) => {

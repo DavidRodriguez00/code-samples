@@ -4,69 +4,69 @@
         "name": "Kit 5 Camisetas Masculinas Básicas Manga Curta",
         "price": 42.49,
         "rating": 4,
-        "image": "./assete/images/1-1.webp"
+        "image": "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/1-1.webp"
     },
     {
         "id": 2,
         "name": "Nutella bote especial 350G ferrero",
         "price": 19.99,
         "rating": 5,
-        "image": "./assete/images/2-1.webp"
+        "image": "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/2-1.webp"
     },
     {
         "id": 3,
         "name": "Consola Xbox Serie S 500gb SSD",
         "price": 2276.10,
         "rating": 5,
-        "image": "./assete/images/3-1.webp"
+        "image": "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/3-1.webp"
     },
     {
         "id": 4,
         "name": "Freidora Eléctrica - Airfryer Ichef Polishop - AllSpace - Exclusive - Negra",
         "price": 899.96,
         "rating": 4,
-        "image": "./assete/images/4-1.webp"
+        "image": "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/4-1.webp"
     },
     {
         "id": 5,
         "name": "Smart TV 43'' LG 43LM631C0SB.BWZ Full HD Wi-Fi + 2 USB 3 HDMI",
         "price": 1871.10,
         "rating": 4,
-        "image": "./assete/images/5-1.webp"
+        "image": "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/5-1.webp"
     },
     {
         "id": 6,
         "name": "Tablet Samsung Galaxy A7 Lite 4g 32GB 3GB RAM SM-T225NZAPZTO",
         "price": 1028.99,
         "rating": 4,
-        "image": "./assete/images/6-1.webp"
+        "image": "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/6-1.webp"
     },
     {
         "id": 7,
         "name": "Kit Máquina de Cortar Cabellos Dual Action Titanium e Multigroom 7 em 1 - Philco",
         "price": 149.99,
         "rating": 3,
-        "image": "./assete/images/7-1.webp"
+        "image": "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/7-1.webp"
     },
     {
         "id": 8,
         "name": "Sofá 3 Lugares Retrátil e Reclinable Cama inBox Compact 1,80m Velusoft Café",
         "price": 888.99,
         "rating": 4,
-        "image": "./assete/images/8-1.webp"
+        "image": "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/8-1.webp"
     },
     {
         "id": 9,
         "name": "Asiento de coche con rotación de 360º Snugfix negro de Fisher Price - Fisher-Price",
         "price": 975.92,
         "rating": 3,
-        "image": "./assete/images/9-1.webp"
+        "image": "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/9-1.webp"
     },
     {
         "id": 10,
         "name": "Fasterr Tool Kit 129 piezas Brocas y llaves de emergencia",
         "price": 77.90,
         "rating": 3,
-        "image": "./assete/images/10-1.webp"
+        "image": "https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/10-1.webp"
     }
 ]
