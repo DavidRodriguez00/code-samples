@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efecto Esparcir</title>
+    <style>
+        * {
+            font-family: "Verdana", sans-serif;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            letter-spacing: 0px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            scroll-behavior: smooth;
+            margin: 0;
+        }
+
+        html {
+            padding: 3rem;
+            background-color: #212123;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #EFEFEF;
+        }
+
+
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        h1.esparcimiento__texto {
+            animation: esparcimientoDeTexto 2s linear infinite;
+        }
+
+        @keyframes esparcimientoDeTexto {
+            0% {
+                letter-spacing: 0rem;
+                opacity: 1;
+            }
+
+            50% {
+                letter-spacing: 1rem;
+                opacity: 0.5;
+            }
+
+            100% {
+                letter-spacing: 2rem;
+                opacity: 0;
+            }
+        }
+
+        h1.compresion__texto {
+            animation: compresionDeTexto 2s linear infinite;
+        }
+
+        @keyframes compresionDeTexto {
+            0% {
+                letter-spacing: 2rem;
+                opacity: 0;
+            }
+
+            50% {
+                letter-spacing: 1rem;
+                opacity: 0.5;
+            }
+
+            100% {
+                letter-spacing: 0rem;
+                opacity: 1;
+            }
+        }
+
+        h1.compresion-fechamento__texto {
+            animation: esparcimientoFechamentoDeTexto 3s linear infinite;
+        }
+
+        @keyframes esparcimientoFechamentoDeTexto {
+            0% {
+                letter-spacing: 0;
+            }
+
+            25% {
+                letter-spacing: 1rem;
+                opacity: 0.5;
+            }
+
+            50% {
+                letter-spacing: 2rem;
+                opacity: 0;
+            }
+
+            75% {
+                letter-spacing: 1rem;
+                opacity: 0.5;
+            }
+
+            100% {
+                letter-spacing: 0rem;
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="esparcimiento__texto">
+        @DavidRodriguez00
+    </h1>
+    <h1 class="compresion__texto">
+        @DavidRodriguez00
+    </h1>
+    <h1 class="compresion-fechamento__texto">
+        @DavidRodriguez00
+    </h1>
+</body>
+
+</html>
