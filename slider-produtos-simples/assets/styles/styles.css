@@ -57,7 +57,7 @@ h2::after {
 }
 
 .slider .card .like {
-  background-image: url("https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/ic-heart.png");
+  background-image: url("https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/ic-heart.png");
   height: 20px;
   width: 20px;
   background-size: 20px;
@@ -69,7 +69,7 @@ h2::after {
 }
 
 .slider .card .like:hover {
-  background-image: url("https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/ic-heart-red.png");
+  background-image: url("https://raw.githubusercontent.com/DavidRodriguez00/code-samples/main/slider-produtos-simples/assets/images/ic-heart-red.png");
 }
 
 .slider .card img.product {

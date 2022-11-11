@@ -53,7 +53,7 @@ fetch(
                 <h5>${handlePrice(el.price)}</h5>
                 <h5>${handlePrice(el.price, true)}</h5>
             </div>
-            <a class="button">Adicionar ao Carrinho</a>
+            <a class="button">Añadir al carrito</a>
         </div>
       `
       );
